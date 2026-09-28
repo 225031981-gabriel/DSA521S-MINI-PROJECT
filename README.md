@@ -17,5 +17,5 @@
 4. To run the standalone Postfix exercise: `java PostfixDemo`
 
 ## GitHub Repository
-[Insert GitHub Link Here]
+https://github.com/225031981-gabriel/DSA521S-MINI-PROJECT
 
