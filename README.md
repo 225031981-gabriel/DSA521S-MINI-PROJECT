@@ -1,7 +1,7 @@
 # DSA521S Group Mini-Project 2026: NUST Service Centre Simulation
 
 ## Group 
-- **Submitted by:** Student Number – Full Name
+- **Submitted by:** 225031981 - Paulina Gabriel 
 - **Group Members:**
   - 225152908 – Esther Ishola  
   - 226096416 – Laina Kafula 
