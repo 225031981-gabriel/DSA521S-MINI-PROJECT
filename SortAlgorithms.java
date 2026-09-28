@@ -183,14 +183,20 @@ public class SortAlgorithms {
         int j = end;
 
         while (i < j) {
-            while (i < end && arr[i] <= arr[pivot]) { counter[0]++; i++; }
-            while (arr[j] > arr[pivot]) { counter[0]++; j--; }
-            if (i < j) {
-                int temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
-            }
-        }
+    while (i < end) {
+        counter[0]++;
+        if (arr[i] <= arr[pivot]) i++; else break;
+    }
+    while (true) {
+        counter[0]++;
+        if (arr[j] > arr[pivot]) j--; else break;
+    }
+    if (i < j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+}
         int temp = arr[pivot];
         arr[pivot] = arr[j];
         arr[j] = temp;
